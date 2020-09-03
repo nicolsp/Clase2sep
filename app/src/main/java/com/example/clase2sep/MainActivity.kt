@@ -30,10 +30,10 @@ class MainActivity : AppCompatActivity() {
     fun filterNumberMap(numberList: Map<String,Int>): List<String> {
         val x = numberList.filter { it.}
         return x
-    }
+  }
     fun filterInstance(numberList: List<String>): List<String> {
         val x = numberList.filter { it.startsWith("t") }
-    }
+   }
 
     
     
